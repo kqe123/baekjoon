@@ -14,3 +14,7 @@ for _ in range(T) :
 for i in range(100) :
     counts += paper[i].count(0)
 print(counts)
+
+for j in range(len(a[0])) :
+    for i in range(len(a)) :
+        print(a[i][j])
